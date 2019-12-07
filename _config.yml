@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Md Khairul Islam"
 title_separator          : "-"
 name                     : &name "Md Khairul Islam (Tanim)"
 description              : &description "iOS developer at Samsung"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Md Khairul Islam"
   avatar           : "profile.png"
-  bio              : "iOS developer at Samsung SmartThings project. Research interest is application of machine learning is Software Engineering and NLP"
+  bio              : "iOS developer"
   location         : "Dhaka, Bangladesh"
   employer         : Samsung R&D Institute Bangladesh
   # googlescholar    : "http://yourfullgooglescholarurl.com"
