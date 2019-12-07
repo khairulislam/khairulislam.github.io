@@ -11,21 +11,21 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. in CSE, Bangladesh University of Engineering and Technology, 2018.
+* M.Sc. in CSE, Bangladesh University of Engineering and Technology, 2021 (expected).
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Software Developer
+  * at [Samsung R&D Institute Bangladesh](https://research.samsung.com/srbd)
+  * in SmartThing iOS team
+  * From 12/2018 to present
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Research Intern (part time)
+  * at [REVE Systems](https://www.revesoft.com/)
+  * in ASR research team
+  * From 05/2018 to 08/2018
+  * Worked on Bengali text mining, pre-processing language model
   
 Skills
 ======
