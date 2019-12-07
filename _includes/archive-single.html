@@ -41,9 +41,15 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          {{ post.authors }}:<br>
-          {% if post.status and post.status == 'unpublished' %}
-            <p> To submit in {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {{ post.authors }}<br>
+          {% if post.status%}
+            {% if post.status == 'submitted' %}
+              <p>Submitted at a conference</p>
+            {% elsif post.status == 'unpublished' %}
+              <p> To submit in {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+            {% elsif post.status == 'published' %}
+              <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+            {% endif %}
           {% else %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
