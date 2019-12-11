@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "Developer at SRBD"
   location         : "Dhaka, Bangladesh"
-  employer         : Samsung R&D Institute Bangladesh
+  employer         : Samsung R&D Institute,<br>Bangladesh
   # googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "khairulislamtanim@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
