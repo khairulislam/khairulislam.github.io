@@ -2,7 +2,7 @@
 authors: "Rajshakhar Paul, Md Khairul Islam, Sabrina Tasmee, Amiangshu Bosu, Dr. Anindya Iqbal"
 title: "Characterization and Identification of Code Review Security Discussions: A Case Study"
 collection: publications
-status: submitted
+status: unpublished
 permalink:
 excerpt: 'This research aims to identify the differences between code reviews with and without security discussions and build a machine learning based model to automatically identify security discussions'
 date: 2020-01-01
