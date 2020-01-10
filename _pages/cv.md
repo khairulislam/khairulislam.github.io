@@ -57,3 +57,11 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams -->
+
+Achievements
+======
+* Passed Professional Level Test at Samsung (06/2019)
+* [Silver medal in IEEE-CIS Fraud Detection Competition (10/2019)](https://www.kaggle.com/c/ieee-fraud-detection)
+* [Bronze medal in ASHRAE - Great Energy Predictor III Competition (01/2020)](https://www.kaggle.com/c/ashrae-energy-prediction)
+* [Kaggle Discussion Expert (3 star)](https://www.kaggle.com/khairulislam/competitions)
+* [Kaggle Competition Expert (3 star)](https://www.kaggle.com/khairulislam/discussion)
