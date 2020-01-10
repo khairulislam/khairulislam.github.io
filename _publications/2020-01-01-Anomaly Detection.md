@@ -1,5 +1,5 @@
 ---
-authors: "Md. Khairul Islam, Prithula Hridi, Md. Shohrab Hossain, Husnu S. Narman"
+authors: "Md. Khairul Islam, Prithula Hridi, [Md. Shohrab Hossain](http://mshohrabhossain.buet.ac.bd/), Husnu S. Narman"
 title: "Anomaly Detection Using Ensemble of Machine Learning Models"
 collection: publications
 status: unpublished
