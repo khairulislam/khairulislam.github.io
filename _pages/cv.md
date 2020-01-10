@@ -69,16 +69,8 @@ Achievements
 Skills
 ======
 * Programming Language:
-  * Python
-  * Swift
-  * C++
-  * Java
-  * SQL (MySQL, MSSQL, SQLite)
+Python, Swift, C++, Java, SQL
 * Machine Learning: 
-  * sklearn
-  * keras
-  * weka
+sklearn, keras, weka
 * Visualization:
-  * matplotlib
-  * pandas
-  * seaborn
+matplotlib, pandas, seaborn
