@@ -65,3 +65,20 @@ Achievements
 * [Bronze medal in ASHRAE - Great Energy Predictor III Competition (01/2020)](https://www.kaggle.com/c/ashrae-energy-prediction)
 * [Kaggle Discussion Expert (3 star)](https://www.kaggle.com/khairulislam/competitions)
 * [Kaggle Competition Expert (3 star)](https://www.kaggle.com/khairulislam/discussion)
+
+Skills
+======
+* Programming Language:
+  * Python
+  * Swift
+  * C++
+  * Java
+  * SQL (MySQL, MSSQL, SQLite)
+* Machine Learning: 
+  * sklearn
+  * keras
+  * weka
+* Visualization:
+  * matplotlib
+  * pandas
+  * seaborn
