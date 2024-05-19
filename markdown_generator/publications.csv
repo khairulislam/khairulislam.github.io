@@ -1,0 +1,4 @@
+pub_date,title,venue,excerpt,citation,url_slug,paper_url,slides_url
+2024-03-27,Interpreting Time Series Transformer Models and Sensitivity Analysis of Population Age Groups to COVID-19 Infections,AAAI'24 WORKSHOP: AI FOR TIME SERIES ANALYSIS (AI4TS),,,, https://arxiv.org/html/2401.15119v1,https://github.com/UVA-MLSys/COVID-19-age-groups
+2024-03-23,Temporal Dependencies and Spatio-Temporal Patterns of Time Series Models,Twenty-Ninth AAAI/SIGAI Doctoral Consortium,,,,https://ojs.aaai.org/index.php/AAAI/article/view/30396,https://github.com/UVA-MLSys/SA-Timeseries
+2023-07-08,Interpreting County-Level COVID-19 Infections using Transformer and Deep Learning Time Series Models,IEEE International Conference on Digital Health,,,,https://ieeexplore.ieee.org/abstract/document/10224685,https://github.com/UVA-MLSys/gpce-covid
