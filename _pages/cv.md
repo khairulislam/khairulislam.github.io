@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+## Education
 ======
 * Ph.D in Computer Science, [University of Virginia](https://engineering.virginia.edu/department/computer-science), (2021 - )
 * M.E. in Computer Science, [University of Virginia](https://engineering.virginia.edu/department/computer-science), 2024
 * B.Sc. in Computer Science and Engineering, [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/), 2018
 
-Work experience
+## Work experience
 ======
 * Spring 2021 - Now : Graduate Research Assistant 
   * Computer Science, University of Virginia
@@ -32,7 +32,7 @@ Work experience
   * Duties included: Bengali Speech Recognition and data collection
   * Skills used: Pytorch
   
-Skills
+## Skills
 ======
 * Python
   * Pytorch
@@ -44,7 +44,7 @@ Skills
   * Markdown
   * Javascript
 
-Publications
+## Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -56,7 +56,7 @@ Publications
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul> -->
   
-Teaching
+## Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
