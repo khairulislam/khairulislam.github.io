@@ -11,35 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, [University of Virginia](https://engineering.virginia.edu/department/computer-science), (2021 - )
+* M.E. in Computer Science, [University of Virginia](https://engineering.virginia.edu/department/computer-science), 2024
+* B.Sc. in Computer Science and Engineering, [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/), 2018
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Spring 2021 - Now : Graduate Research Assistant 
+  * Computer Science, University of Virginia
+  * Duties included: Updates and improvements to template
+  * Supervisor: Professor Judy Fox
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 12/2018 - 12/2020: Software Developer
+  * Samsung Research, Dhaka, Bangladesh
+  * Duties included: iOS app development
+  * Skills used: Swift, C++, Agile development
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2018: Research Intern
+  * REVE Systems Limited, Dhaka, Bangladesh
+  * Duties included: Bengali Speech Recognition and data collection
+  * Skills used: Pytorch
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+  * Pytorch
+  * Tensorflow
+  * Scikit-learn
+* C++
+* Documentation
+  * HTML
+  * Markdown
+  * Javascript
 
 Publications
 ======
@@ -47,18 +50,15 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
