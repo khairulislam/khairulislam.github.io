@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Khairul's personal site"
+title                    : "Khairul's Homepage"
 title_separator          : "-"
 name                     : &name "Md. Khairul Islam"
-description              : &description "ML researcher"
+description              : &description "AI Researcher"
 url                      : https://khairulislam.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "khairulislam/khairulislam.github.io"
@@ -44,7 +44,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "khairulislam"
-  kaggle           : # Username  
+  kaggle           : "khairulislam"
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
