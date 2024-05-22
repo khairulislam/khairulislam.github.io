@@ -19,7 +19,7 @@ redirect_from:
 ======
 * Spring 2021 - Now : Graduate Research Assistant 
   * Computer Science, University of Virginia
-  * Duties included: Updates and improvements to template
+  * Duties included: Time series deep learning and interpretation
   * Supervisor: Professor Judy Fox
 
 * 12/2018 - 12/2020: Software Developer

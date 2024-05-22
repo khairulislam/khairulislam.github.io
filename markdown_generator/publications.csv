@@ -1,4 +1,4 @@
-pub_date,title,venue,excerpt,citation,url_slug,paper_url,slides_url
+pub_date,title,venue,citation,excerpt,url_slug,paper_url,slides_url
 3/27/2024,Interpreting Time Series Transformer Models and Sensitivity Analysis of Population Age Groups to COVID-19 Infections,AAAI'24 WORKSHOP: AI FOR TIME SERIES ANALYSIS (AI4TS),"Md. Khairul Islam, Tyler Valentine, Timothy Joowon Sue, Ayush Karmacharya, Luke Neil Benham, Zhengguang Wang, Kingsley Kim, and Judy Fox.",,, https://arxiv.org/html/2401.15119v1,https://github.com/UVA-MLSys/COVID-19-age-groups
 3/23/2024,Temporal Dependencies and Spatio-Temporal Patterns of Time Series Models,Twenty-Ninth AAAI/SIGAI Doctoral Consortium,"Md. Khairul Islam, and Judy Fox.",,,https://ojs.aaai.org/index.php/AAAI/article/view/30396,https://github.com/UVA-MLSys/SA-Timeseries
 7/8/2023,Interpreting County-Level COVID-19 Infections using Transformer and Deep Learning Time Series Models,IEEE International Conference on Digital Health,"Md. Khairul Islam, Yingzheng Liu, Andrej Erkelen, Nick Daniello, Aparna Marathe, and Judy Fox.",,,https://ieeexplore.ieee.org/abstract/document/10224685,https://github.com/UVA-MLSys/gpce-covid

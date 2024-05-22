@@ -52,20 +52,16 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-    {% if post.citation and post.paperurl and post.slidesurl%}
-      <p><i> {{ post.citation }} </i> <a href=" {{ post.paperurl }} ">[Paper]</a> | <a href="{{ post.slidesurl }}">[Code]</a> </p>
-    {% elsif post.citation and post.slidesurl %}
-      <p><i> {{ post.citation }} </i> <a href="{{ post.slidesurl }}">[Code]</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p><i> {{ post.citation }} </i> <a href=" {{ post.paperurl }} ">[Paper]</a></p>
-    {% elsif post.paperurl and post.slidesurl %}
+    {% if post.citation %}
+      <i> {{ post.citation }} </i>
+    {% endif %}
+
+    {% if post.paperurl and post.slidesurl %}
       <p><a href=" {{ post.paperurl }} ">[Paper]</a> | <a href="{{ post.slidesurl }}">[Code]</a></p>
-    {% elsif post.citation %}
-      <p><i> {{ post.citation }} </i></p>
     {% elsif post.paperurl %}
       <p><a href=" {{ post.paperurl }} ">Paper</a></p>
     {% elsif post.slidesurl %}
-      <p>Download <a href="{{ post.slidesurl }}">Code</a></p>
+      <p><a href="{{ post.slidesurl }}">Code</a></p>
     {% endif %}
 
   </article>
