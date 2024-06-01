@@ -21,3 +21,8 @@ Prior to UVA, I have worked in [Samsung Research, Bangladesh](https://research.s
 * Oct 2023 - Paper accepted in *AAAI/SIGAI Doctoral Consortium*, 2024. Title : *[Temporal Dependencies and Spatio-Temporal Patterns of Time Series Models](https://ojs.aaai.org/index.php/AAAI/article/view/30396)*.
 * July 2023 - Third prize in [NSF Student Research Award](https://conferences.computer.org/icdh/2023/student_awards.html) at *IEEE International Conference on Digital Health*. 
 * June 2023 - Gave my Ph.D. qualifier exam proposed on time series interpretation. 
+
+## 🔥 &nbsp; My GitHub Stats :
+| | |
+|:---|:---|
+|[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=khairulislam&show_icons=true&theme=merko)](https://github.com/anuraghazra/github-readme-stats)| [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khairulislam&layout=donut&theme=dark&size_weight=0.5&count_weight=0.5)](https://github.com/anuraghazra/github-readme-stats) | |
