@@ -23,6 +23,5 @@ Prior to UVA, I have worked in [Samsung Research, Bangladesh](https://research.s
 * June 2023 - Gave my Ph.D. qualifier exam proposed on time series interpretation. 
 
 ## 🔥 &nbsp; My GitHub Stats :
-| | |
-|:---|:---|
-|[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=khairulislam&show_icons=true&theme=merko)](https://github.com/anuraghazra/github-readme-stats)| [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khairulislam&layout=donut&theme=dark&size_weight=0.5&count_weight=0.5)](https://github.com/anuraghazra/github-readme-stats) | |
+<img src="https://github-readme-stats.vercel.app/api?username=khairulislam&show_icons=true&theme=merko" alt='GitHub stats' width='59%'/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khairulislam&layout=donut&theme=dark&size_weight=0.5&count_weight=0.5" alt="Top languages"  width='40%'/>
