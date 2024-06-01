@@ -17,10 +17,10 @@ My current interest falls in Time Series deep learning and interpretation using 
 Prior to UVA, I have worked in Samsung Research, Bangladesh for 2 years as a iOS software developer, 2018-2020. I completed my B.Sc. in Computer Science and Engineering from Bangladesh University of Engineering and Technology at 2018. In my spare time I enjoy playing Chess and Table Tennis.
 
 ## 🔥 &nbsp; My Stats :
+| | |
+|:---:|:---:|
+|[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=khairulislam&show_icons=true&theme=merko)](https://github.com/anuraghazra/github-readme-stats)| [![GitHub Streak](https://streak-stats.demolab.com/?user=khairulislam&theme=dark&card_width=380px)](https://git.io/streak-stats)  |
+| [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khairulislam&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats) | |
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=khairulislam&show_icons=true&theme=merko)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khairulislam&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=khairulislam&theme=dark)](https://git.io/streak-stats) 
 
