@@ -14,6 +14,7 @@ Prior to UVA, I have worked in [Samsung Research, Bangladesh](https://research.s
 
 ## News
 
+* Aug 2024 - I'll be a TA for the [`CS6501: Wireless Sensing for Internet of Things`](https://kunqian.info/teaching/uva_cs6501_ws4iot/fall2024/) course this Fall semester. 
 * May 2024 - I graduated from UVA with a Master's (En Route) degree in Computer Science.
 * Dec 2023 - Paper accepted in *AAAI'24 WORKSHOP: AI FOR TIME SERIES ANALYSIS (AI4TS)*. Title: *[Interpreting Time Series Transformer Models and Sensitivity Analysis of Population Age Groups to COVID-19 Infections](https://arxiv.org/html/2401.15119v1)*
 * Nov 2023 - Alhamdulillah, got married to my long time acquaintance *Dr. Tabassum*. You see, this is the most important news here :3. 
@@ -23,5 +24,5 @@ Prior to UVA, I have worked in [Samsung Research, Bangladesh](https://research.s
 * June 2023 - Gave my Ph.D. qualifier exam proposed on time series interpretation. 
 
 ## 🔥 &nbsp; My GitHub Stats :
-<img src="https://github-readme-stats.vercel.app/api?username=khairulislam&show_icons=true&theme=merko" alt='GitHub stats' width='59%'/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khairulislam&layout=donut&theme=dark&size_weight=0.5&count_weight=0.5" alt="Top languages"  width='40%'/>
+<img src="https://github-readme-stats.vercel.app/api?username=khairulislam&show_icons=true" alt='GitHub stats' width='59%'/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khairulislam&layout=donut&size_weight=0.5&count_weight=0.5" alt="Top languages"  width='40%'/>
