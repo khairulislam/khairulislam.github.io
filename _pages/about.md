@@ -14,7 +14,9 @@ Prior to UVA, I have worked in [Samsung Research, Bangladesh](https://research.s
 
 ## News
 
-* Aug 2024 - I'll be a TA for the [`CS6501: Wireless Sensing for Internet of Things`](https://kunqian.info/teaching/uva_cs6501_ws4iot/fall2024/) course this Fall semester. 
+* Sep 2024 - **First Place Winner** of the [*2024 COVID Information Commons (CIC) Student Paper Challenge Graduate Student Cohort*](https://covidinfocommons.datascience.columbia.edu/content/2024-cic-student-paper-challenge) organized by Columbia University!
+* We'll be transitioning to *AI Institute* astronomy research with **NRAO** (National Radio Astronomy Observatory) from this month.
+* Aug 2024 - I'll be a TA for the [`CS6501: Wireless Sensing for Internet of Things`](https://kunqian.info/teaching/uva_cs6501_ws4iot/fall2024/) course this Fall semester.
 * May 2024 - I graduated from UVA with a Master's (En Route) degree in Computer Science.
 * Dec 2023 - Paper accepted in *AAAI'24 WORKSHOP: AI FOR TIME SERIES ANALYSIS (AI4TS)*. Title: *[Interpreting Time Series Transformer Models and Sensitivity Analysis of Population Age Groups to COVID-19 Infections](https://arxiv.org/html/2401.15119v1)*
 * Nov 2023 - Alhamdulillah, got married to my long time acquaintance *Dr. Tabassum*. You see, this is the most important news here :3. 
