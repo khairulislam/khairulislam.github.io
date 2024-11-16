@@ -14,7 +14,8 @@ Prior to UVA, I have worked in [Samsung Research, Bangladesh](https://research.s
 
 ## News
 
-* Oct 2024 - We'll be transitioning to [*AI Institute*](https://new.nsf.gov/news/nsf-simons-foundation-launch-2-ai-institutes-help?utm_medium=email&utm_source=govdelivery) astronomy research with **NRAO** (National Radio Astronomy Observatory).
+* Nov 2024 - Our paper "Large Language Models for Financial Aid in Financial Time-series Forecasting" has been accepted in IEEE BigData 2024 Workshop on [Large Language Models for Finance](https://intelligentfinance.github.io/IEEE-LLM-finance-2024/index.html).
+* Oct 2024 - New project: [*AI Institute*](https://new.nsf.gov/news/nsf-simons-foundation-launch-2-ai-institutes-help?utm_medium=email&utm_source=govdelivery) astronomy research with **NRAO** (National Radio Astronomy Observatory).
 * Sep 2024 - **First Place Winner** of the [*2024 COVID Information Commons (CIC) Student Paper Challenge Graduate Student Cohort*](https://covidinfocommons.datascience.columbia.edu/content/2024-cic-student-paper-challenge) organized by Columbia University!
 * Aug 2024 - I'll be a TA for the [`CS6501: Wireless Sensing for Internet of Things`](https://kunqian.info/teaching/uva_cs6501_ws4iot/fall2024/) course this Fall semester.
 * May 2024 - I graduated from UVA with a Master's (En Route) degree in Computer Science.
