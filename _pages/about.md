@@ -14,6 +14,7 @@ Prior to UVA, I have worked in [Samsung Research, Bangladesh](https://research.s
 
 ## News
 
+* Dec 2024 - Arxiv paper [WinTSR: A Windowed Temporal Saliency Rescaling Method for Interpreting Time Series Deep Learning Models](https://arxiv.org/pdf/2412.04532).
 * Nov 2024 - Got featured in UVA Engineering news, [check here for details](https://engineering.virginia.edu/news-events/news/uva-phd-student-uncovers-covid-19-transmission-patterns).
 * Nov 2024 - Our paper "Large Language Models for Financial Aid in Financial Time-series Forecasting" has been accepted in IEEE BigData 2024 Workshop on [Large Language Models for Finance](https://intelligentfinance.github.io/IEEE-LLM-finance-2024/index.html).
 * Oct 2024 - New project: [*AI Institute*](https://new.nsf.gov/news/nsf-simons-foundation-launch-2-ai-institutes-help?utm_medium=email&utm_source=govdelivery) astronomy research with **NRAO** (National Radio Astronomy Observatory).
