@@ -14,7 +14,9 @@ Prior to UVA, I have worked in [Samsung Research, Bangladesh](https://research.s
 
 ## News
 
-* Dec 2024 - Arxiv paper [WinTSR: A Windowed Temporal Saliency Rescaling Method for Interpreting Time Series Deep Learning Models](https://arxiv.org/pdf/2412.04532).
+* Jan 2025: I'll be a TA for [Foundations of Data Analysis](https://mz8rr.github.io/FoDA/schedule.html) - course instructor Professor Miaomiao Zhang.
+* Jan 2024 - Arxiv paper [Scalable Cosmic AI Inference using Cloud Serverless Computing with FMI](https://arxiv.org/pdf/2501.06249) - This introduces a new infrastructure for serverless computing using astronomy images and a foundation model called AstroMAE.
+* Dec 2024 - [WinTSR: A Windowed Temporal Saliency Rescaling Method for Interpreting Time Series Deep Learning Models](https://arxiv.org/pdf/2412.04532) accepted at *AAAI'25 WORKSHOP: AI FOR TIME SERIES ANALYSIS (AI4TS)*.
 * Nov 2024 - Got featured in UVA Engineering news, [check here for details](https://engineering.virginia.edu/news-events/news/uva-phd-student-uncovers-covid-19-transmission-patterns).
 * Nov 2024 - Our paper "Large Language Models for Financial Aid in Financial Time-series Forecasting" has been accepted in IEEE BigData 2024 Workshop on [Large Language Models for Finance](https://intelligentfinance.github.io/IEEE-LLM-finance-2024/index.html).
 * Oct 2024 - New project: [*AI Institute*](https://new.nsf.gov/news/nsf-simons-foundation-launch-2-ai-institutes-help?utm_medium=email&utm_source=govdelivery) astronomy research with **NRAO** (National Radio Astronomy Observatory).
