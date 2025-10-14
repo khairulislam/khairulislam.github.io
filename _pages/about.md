@@ -14,6 +14,8 @@ Prior to UVA, I have worked in [Samsung Research, Bangladesh](https://research.s
 
 ## News
 
+* Aug 2025: I'll be a TA for [Software Engineering - CS3240](https://www.cs3240.org/) - course instructor Professor Prof. Mark Sherriff.
+* May 2025: I'll be a TA for [Big Data Systems - DS5110](https://github.com/UVA-MLSys/DS5110_Summer_2025) - course instructor Professor Judy Fox.
 * Jan 2025: I'll be a TA for [Foundations of Data Analysis](https://mz8rr.github.io/FoDA/schedule.html) - course instructor Professor Miaomiao Zhang.
 * Jan 2024 - Arxiv paper [Scalable Cosmic AI Inference using Cloud Serverless Computing with FMI](https://arxiv.org/pdf/2501.06249) - This introduces a new infrastructure for serverless computing using astronomy images and a foundation model called AstroMAE.
 * Dec 2024 - [WinTSR: A Windowed Temporal Saliency Rescaling Method for Interpreting Time Series Deep Learning Models](https://arxiv.org/pdf/2412.04532) accepted at *AAAI'25 WORKSHOP: AI FOR TIME SERIES ANALYSIS (AI4TS)*.
