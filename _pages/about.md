@@ -7,13 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth year Computer Science Ph.D. candidate at the [University of Virginia](https://engineering.virginia.edu/department/computer-science).
+I am a fifth year Computer Science Ph.D. candidate at the [University of Virginia](https://engineering.virginia.edu/department/computer-science).
 My current interest falls in Time Series deep learning and interpretation using state-of-the-art techniques. Currently, I am advised by [Professor Judy Fox](https://judyfox.online/) and [Professor Geoffrey Fox](https://engineering.virginia.edu/faculty/geoffrey-c-fox) as my Co-Adviser. My prior experiences include improving code review and software development processes.  For inquiries about my research, please feel free to email me at <i>khairulislam@virginia.edu</i>. See my recent works on [Google Scholar](https://scholar.google.com/citations?user=pLgKvU8AAAAJ&hl=en).
 
 Prior to UVA, I have worked in [Samsung Research, Bangladesh](https://research.samsung.com/srbd) for 2 years as a iOS software developer, 2018-2020. I completed my B.Sc. in Computer Science and Engineering from [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/) at 2018. In my spare time I enjoy playing Chess and Table Tennis.
 
 ## News
 
+* Nov 2025: Our paper titled "Scalable Cosmic AI Inference using Cloud Serverless Computing”, has been accepted at International Journal of High Performance
+Computing Applications, 2025. [Preprint](https://arxiv.org/pdf/2501.06249), [Code](https://github.com/UVA-MLSys/AI-for-Astronomy).
 * Aug 2025: I'll be a TA for [Software Engineering - CS3240](https://www.cs3240.org/) - course instructor Professor Prof. Mark Sherriff.
 * May 2025: I'll be a TA for [Big Data Systems - DS5110](https://github.com/UVA-MLSys/DS5110_Summer_2025) - course instructor Professor Judy Fox.
 * Jan 2025: I'll be a TA for [Foundations of Data Analysis](https://mz8rr.github.io/FoDA/schedule.html) - course instructor Professor Miaomiao Zhang.
