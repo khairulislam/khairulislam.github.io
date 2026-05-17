@@ -15,13 +15,15 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    color: $primary-color;
 
     &:hover {
       text-decoration: underline;
+      color: darken($primary-color, 15%);
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 0 8px 24px rgba($primary-color, 0.25);
       }
     }
   }
@@ -41,10 +43,13 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
+  margin-top: 0;
   font-family: $sans-serif-narrow;
+  font-weight: 600;
+  font-size: $type-size-4;
 
   a + a {
-    opacity: 0.5;
+    opacity: 0.6;
   }
 }
 
@@ -74,9 +79,21 @@
   }
 }
 
-.archive__item:hover {
-  .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+.archive__item {
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: $border-radius;
+  background: #fafafa;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: #f0f7ff;
+    box-shadow: 0 4px 16px rgba($primary-color, 0.12);
+    transform: translateY(-2px);
+
+    .archive__item-teaser {
+      box-shadow: 0 8px 24px rgba($primary-color, 0.25);
+    }
   }
 
   .archive__item-title {

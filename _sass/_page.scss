@@ -52,11 +52,21 @@
 
   h2 {
     padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    margin-top: 1.5em;
+    border-bottom: 2px solid $primary-color;
+    color: $dark-gray;
+    font-weight: 600;
+  }
+
+  h3 {
+    margin-top: 1.2em;
+    color: $dark-gray;
+    font-weight: 600;
   }
 
   p, li, dl {
     font-size: 1em;
+    line-height: 1.6;
   }
 
   /* paragraph indents */

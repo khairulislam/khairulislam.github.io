@@ -15,7 +15,7 @@
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
-    overflow-y: auto;               // Add scrollbar if the sidebar is too long
+    overflow-y: auto;
     position: fixed;
     padding-top: $masthead-height;
   }
@@ -94,8 +94,16 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 4px;
+      border: 2px solid $primary-color;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    @include breakpoint($large) {
+      &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 24px rgba($primary-color, 0.2);
+      }
     }
   }
 }
@@ -112,6 +120,10 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    background: linear-gradient(135deg, rgba($primary-color, 0.05) 0%, transparent 100%);
+    padding: 1.25em;
+    border-radius: $border-radius;
+    border-left: 4px solid $primary-color;
   }
 }
 
@@ -192,7 +204,7 @@
   border-radius: $border-radius;
   background: #fff;
   z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  box-shadow: 0 8px 24px rgba(#000, 0.15);
   cursor: default;
 
   @include breakpoint($large) {
@@ -246,15 +258,16 @@
   a {
     display: block;
     margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: inherit;
+    padding: 0.5em 0.75em;
+    color: $dark-gray;
     font-size: $type-size-5;
     text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease;
 
     &:hover {
-      text-decoration: underline;
+      color: $primary-color;
+      background: mix(#fff, $primary-color, 90%);
     }
   }
 }
