@@ -1,0 +1,231 @@
+/* ==========================================================================
+   Homepage layout
+   Compact, scannable single-column sections layered on top of the
+   Minimal Mistakes theme. Type is deliberately a step larger than the
+   typical academic-homepage default.
+   ========================================================================== */
+
+:root {
+  --hp-text: #1e293b;
+  --hp-muted: #64748b;
+  --hp-accent: #2563eb;
+  --hp-accent-dark: #1d4ed8;
+  --hp-rule: #e2e8f0;
+  --hp-rule-faint: #f1f5f9;
+}
+
+/* --- Lead paragraph ------------------------------------------------------ */
+
+.page__content p.hp-lead {
+  font-size: 1.18rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--hp-text);
+  letter-spacing: -0.01em;
+  text-indent: 0;
+  margin: 0 0 1rem;
+}
+
+.page__content .hp-bio p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--hp-text);
+  text-indent: 0;
+  margin: 0 0 0.85rem;
+}
+
+/* --- Availability callout ------------------------------------------------ */
+
+.page__content p.hp-status {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-indent: 0;
+  padding: 0.7rem 1rem;
+  margin: 1.25rem 0 0.5rem;
+  background-color: rgba(37, 99, 235, 0.04);
+  border-left: 3px solid var(--hp-accent);
+  border-radius: 0.375rem;
+}
+
+.hp-status strong {
+  font-weight: 700;
+  color: var(--hp-text);
+}
+
+/* --- Section scaffolding ------------------------------------------------- */
+
+.hp-section {
+  padding: 1.5rem 0 0.5rem;
+}
+
+.page__content .hp-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--hp-text);
+  letter-spacing: -0.01em;
+  margin: 0 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--hp-rule);
+}
+
+/* --- Research themes ----------------------------------------------------- */
+
+.hp-theme + .hp-theme {
+  margin-top: 1.4rem;
+}
+
+.hp-theme-label {
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--hp-muted);
+  margin-bottom: 0.3rem;
+}
+
+.page__content .hp-theme p {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--hp-text);
+  text-indent: 0;
+  margin: 0;
+}
+
+/* --- News ---------------------------------------------------------------- */
+
+.hp-news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page__content .hp-news-list li.hp-news-item {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0.45rem 0;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  border-bottom: 1px solid var(--hp-rule-faint);
+}
+
+.hp-news-item:last-child {
+  border-bottom: none;
+}
+
+.hp-news-date {
+  flex-shrink: 0;
+  width: 6.5rem;
+  color: var(--hp-muted);
+  font-size: 0.9rem;
+  padding-top: 0.08rem;
+}
+
+.hp-news-text {
+  flex: 1;
+  color: var(--hp-text);
+}
+
+.page__content li.hp-news-hidden {
+  display: none;
+}
+
+.page__content li.hp-news-hidden.hp-news-show {
+  display: flex;
+}
+
+.hp-news-toggle {
+  background: none;
+  border: none;
+  color: var(--hp-accent);
+  cursor: pointer;
+  font-size: 0.97rem;
+  font-weight: 500;
+  padding: 0.6rem 0 0;
+}
+
+.hp-news-toggle:hover {
+  color: var(--hp-accent-dark);
+  text-decoration: underline;
+}
+
+@media (max-width: 575px) {
+  .page__content .hp-news-list li.hp-news-item {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .hp-news-date {
+    width: auto;
+  }
+}
+
+/* --- Selected publications ----------------------------------------------- */
+
+.hp-pub-group + .hp-pub-group {
+  margin-top: 1.35rem;
+}
+
+.hp-pub-label {
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--hp-muted);
+  margin-bottom: 0.35rem;
+}
+
+.hp-pub-item {
+  padding: 0.45rem 0;
+}
+
+.hp-pub-item + .hp-pub-item {
+  border-top: 1px solid var(--hp-rule-faint);
+}
+
+.hp-pub-title {
+  font-weight: 600;
+  font-size: 1.01rem;
+  line-height: 1.45;
+  color: var(--hp-text);
+}
+
+.hp-pub-meta {
+  font-size: 0.93rem;
+  line-height: 1.5;
+  color: var(--hp-muted);
+}
+
+.hp-pub-meta .hp-venue {
+  font-weight: 600;
+  color: var(--hp-text);
+}
+
+.hp-pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+.hp-pub-links a {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--hp-accent);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  padding: 0.12em 0.55em;
+  border-radius: 0.375rem;
+}
+
+.hp-pub-links a:hover {
+  color: var(--hp-accent-dark);
+  border-color: rgba(37, 99, 235, 0.45);
+  text-decoration: none;
+}
+
+.hp-view-all {
+  display: inline-block;
+  margin-top: 0.9rem;
+  font-size: 0.97rem;
+  font-weight: 500;
+}
