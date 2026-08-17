@@ -143,9 +143,3 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
   });
 })();
 </script>
-
-<section class="hp-section">
-<h2 class="hp-heading">GitHub</h2>
-
-<p><a href="https://github.com/khairulislam">github.com/khairulislam</a></p>
-</section>
