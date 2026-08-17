@@ -11,14 +11,13 @@
 
 # About me
 
-I am a fifth-year Computer Science Ph.D. candidate at the University of Virginia. 
-My current interest is in Time Series deep learning and interpretation using state-of-the-art techniques. Also, ML systems as a whole.
+I am a sixth-year Computer Science Ph.D. candidate at the University of Virginia. My current interest is in Time Series deep learning and interpretation using state-of-the-art techniques. Also, ML systems as a whole.
 
 Before UVA, I worked in Samsung Research, Bangladesh for 2 years as an iOS software developer, from 2018 to 2020. I completed my B.Sc. in Computer Science and Engineering from Bangladesh University of Engineering and Technology at 2018. In my spare time I enjoy playing Chess and Table Tennis.
 
-## 🔥 &nbsp; My Stats :
+## 🔥 &nbsp; My Stats
 
 | | |
 |:---|:---|
-|[![GitHub stats](https://github-readme-stats.vercel.app/api?username=khairulislam&show_icons=true&theme=merko)](https://github.com/anuraghazra/github-readme-stats)| [![GitHub Streak](https://streak-stats.demolab.com/?user=khairulislam&theme=dark&card_width=380px)](https://git.io/streak-stats)  |
-| [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khairulislam&layout=donut&theme=dark&size_weight=0.5&count_weight=0.5)](https://github.com/anuraghazra/github-readme-stats) | |
+| [![GitHub stats](https://github-readme-stats-sigma-red.vercel.app/api?username=khairulislam&show_icons=true&theme=merko)](https://github.com/anuraghazra/github-readme-stats) | [![GitHub Streak](https://streak-stats.demolab.com/?user=khairulislam&theme=dark&card_width=380px)](https://git.io/streak-stats) |
+| [![Top Langs](https://github-readme-stats-sigma-red.vercel.app/api/top-langs/?username=khairulislam&layout=donut&theme=dark&size_weight=0.5&count_weight=0.5)](https://github.com/anuraghazra/github-readme-stats) | |
