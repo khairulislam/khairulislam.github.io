@@ -7,15 +7,22 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year Computer Science Ph.D. candidate at the [University of Virginia](https://engineering.virginia.edu/department/computer-science).
+I am a sixth-year Computer Science Ph.D. candidate at the [University of Virginia](https://engineering.virginia.edu/department/computer-science).
 My research focuses on time series deep learning and interpretation using state-of-the-art techniques. I am advised by [Professor Judy Fox](https://judyfox.online/) and co-advised by [Professor Geoffrey Fox](https://engineering.virginia.edu/faculty/geoffrey-c-fox). My prior work also includes improving code review and software development processes. For research inquiries, email me at <a href="mailto:khairulislam@virginia.edu">khairulislam@virginia.edu</a>. See my recent works on [Google Scholar](https://scholar.google.com/citations?user=pLgKvU8AAAAJ&hl=en).
 
 Prior to UVA, I worked at [Samsung Research, Bangladesh](https://research.samsung.com/srbd) for 2 years as an iOS software developer (2018–2020). I completed my B.Sc. in Computer Science and Engineering from [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/) in 2018. In my spare time I enjoy playing Chess and Table Tennis.
 
 ## News
 
+* Jul 2026 - Passed my Ph.D. Proposal exam. Title: *"Generative and Foundation Models for Scientific Data"*.
+* Jun 2026 - Bronze Medal (top 10%, 279th out of 3677 teams) in the [Hull Tactical - Market Prediction](https://www.kaggle.com/competitions/hull-tactical-market-prediction) Kaggle competition.
+* May 2026 - "Cosmo3DFlow: Wavelet Flow Matching for Spatial-to-Spectral Compression in Reconstructing the Early Universe" accepted at *KDD 2026*. [Paper](https://dl.acm.org/doi/10.1145/3770855.3818994), [Code](https://github.com/UVA-MLSys/Cosmo3DFlow).
+* Feb 2026 - Arxiv preprint: [Cosmo3DFlow: Wavelet Flow Matching for Spatial-to-Spectral Compression in Reconstructing the Early Universe](https://arxiv.org/pdf/2602.10172) — achieves 50x faster sampling than diffusion models with a 10x reduction in integration steps.
+* Jan 2026 - I'm a TA for [Software Engineering - CS3240](https://www.cs3240.org/) - course instructors Professor Mark Sherriff and Professor Sarah Elder.
+* Jan 2026 - Arxiv preprint: [OmniSpectra: A Unified Foundation Model for Universal Spectra Representation Learning](https://arxiv.org/pdf/2601.15351).
 * Nov 2025: Our paper titled "Scalable Cosmic AI Inference using Cloud Serverless Computing”, has been accepted at International Journal of High Performance
 Computing Applications, 2025. [Preprint](https://arxiv.org/pdf/2501.06249), [Code](https://github.com/UVA-MLSys/AI-for-Astronomy).
+* Jul 2025 - Silver Medal (top 5%, 155th out of 3757 teams) in the [Jane Street Real-Time Market Data Forecasting](https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting) Kaggle competition.
 * Aug 2025: I'll be a TA for [Software Engineering - CS3240](https://www.cs3240.org/) - course instructor Professor Prof. Mark Sherriff.
 * May 2025: I'll be a TA for [Big Data Systems - DS5110](https://github.com/UVA-MLSys/DS5110_Summer_2025) - course instructor Professor Judy Fox.
 * Jan 2025: I'll be a TA for [Foundations of Data Analysis](https://mz8rr.github.io/FoDA/schedule.html) - course instructor Professor Miaomiao Zhang.
@@ -34,6 +41,7 @@ Computing Applications, 2025. [Preprint](https://arxiv.org/pdf/2501.06249), [Cod
 * July 2023 - Third prize in [NSF Student Research Award](https://conferences.computer.org/icdh/2023/student_awards.html) at *IEEE International Conference on Digital Health*.
 * June 2023 - Gave my Ph.D. qualifier exam on time series interpretation.
 
-## 🔥 &nbsp; My GitHub Stats :
-<img src="https://github-readme-stats.vercel.app/api?username=khairulislam&show_icons=true" alt='GitHub stats' width='59%'/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khairulislam&layout=donut&size_weight=0.5&count_weight=0.5" alt="Top languages"  width='40%'/>
+## 🔥 &nbsp; My GitHub Stats
+
+<img src="https://github-readme-stats-sigma-red.vercel.app/api?username=khairulislam&show_icons=true" alt='GitHub stats' width='59%'/>
+<img src="https://github-readme-stats-sigma-red.vercel.app/api/top-langs/?username=khairulislam&layout=donut&size_weight=0.5&count_weight=0.5" alt="Top languages"  width='40%'/>
