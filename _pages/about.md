@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Homepage"
+description: "I build generative and foundation models that make large-scale scientific data practical to work with — fast enough to run without a supercomputer, and general enough to reuse across domains."
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,7 +14,7 @@ redirect_from:
 I am a sixth-year Computer Science Ph.D. candidate at the [University of Virginia](https://engineering.virginia.edu/department/computer-science), advised by [Professor Judy Fox](https://judyfox.online/) and co-advised by [Professor Geoffrey Fox](https://engineering.virginia.edu/faculty/geoffrey-c-fox). Before UVA, I spent two years as an iOS software developer at [Samsung Research, Bangladesh](https://research.samsung.com/srbd) (2018–2020), after a B.Sc. in Computer Science and Engineering from [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/). In my spare time I enjoy Chess and Table Tennis.
 </div>
 
-<p class="hp-status"><strong>I am on the job market and available from Spring 2027.</strong> If you would like to talk research or explore working together, <a href="mailto:khairulislam@virginia.edu">reach out</a>.</p>
+<p class="hp-status"><strong>I am on the job market and available from Spring 2027.</strong> I would love to talk research or explore working together.</p>
 
 <section class="hp-section">
 <h2 class="hp-heading">Research</h2>
@@ -119,7 +120,6 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
   <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">May 2024</span><span class="hp-news-text">Graduated from UVA with a Master's (en route) degree in Computer Science.</span></li>
   <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">Dec 2023</span><span class="hp-news-text"><a href="https://arxiv.org/html/2401.15119v1">Interpreting Time Series Transformer Models and Sensitivity Analysis of Population Age Groups to COVID-19 Infections</a> accepted at the <strong>AAAI 2024</strong> Workshop on AI for Time Series Analysis.</span></li>
   <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">Nov 2023</span><span class="hp-news-text">Passed my Ph.D. qualifier exam on interpreting time series models by explicitly accounting for temporal importance.</span></li>
-  <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">Nov 2023</span><span class="hp-news-text">Alhamdulillah, got married to my long time acquaintance <em>Dr. Tabassum</em>. You see, this is the most important news here :3.</span></li>
   <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">Oct 2023</span><span class="hp-news-text"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/30396">Temporal Dependencies and Spatio-Temporal Patterns of Time Series Models</a> accepted at the <strong>AAAI/SIGAI Doctoral Consortium 2024</strong>.</span></li>
   <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">Jul 2023</span><span class="hp-news-text">Third prize in the <a href="https://conferences.computer.org/icdh/2023/student_awards.html">NSF Student Research Award</a> at the IEEE International Conference on Digital Health.</span></li>
 </ul>
@@ -146,6 +146,5 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
 <section class="hp-section">
 <h2 class="hp-heading">GitHub</h2>
 
-<img src="https://github-readme-stats-sigma-red.vercel.app/api?username=khairulislam&show_icons=true" alt="GitHub stats" width="59%"/>
-<img src="https://github-readme-stats-sigma-red.vercel.app/api/top-langs/?username=khairulislam&layout=donut&size_weight=0.5&count_weight=0.5" alt="Top languages" width="40%"/>
+<p><a href="https://github.com/khairulislam">github.com/khairulislam</a></p>
 </section>
