@@ -1,17 +1,17 @@
 ---
 permalink: /
 title: "Homepage"
-description: "I build generative and foundation models that make large-scale scientific data practical to work with — fast enough to run without a supercomputer, and general enough to reuse across domains."
+description: "I design generative and foundation models that cut the compute cost of large-scale scientific data by an order of magnitude — fast enough to run without a supercomputer, and general enough to reuse across domains."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<p class="hp-lead">I build generative and foundation models that make large-scale scientific data practical to work with — fast enough to run without a supercomputer, and general enough to reuse across domains.</p>
+<p class="hp-lead">I design generative and foundation models that cut the compute cost of large-scale scientific data by an order of magnitude — fast enough to run without a supercomputer, and general enough to reuse across domains.</p>
 
 <div class="hp-bio" markdown="1">
-I am a sixth-year Computer Science Ph.D. candidate at the [University of Virginia](https://engineering.virginia.edu/department/computer-science), advised by [Professor Judy Fox](https://judyfox.online/) and co-advised by [Professor Geoffrey Fox](https://engineering.virginia.edu/faculty/geoffrey-c-fox). Before UVA, I spent two years as an iOS software developer at [Samsung Research, Bangladesh](https://research.samsung.com/srbd) (2018–2020), after a B.Sc. in Computer Science and Engineering from [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/). In my spare time I enjoy Chess and Table Tennis.
+I am a sixth-year Computer Science Ph.D. candidate at the [University of Virginia](https://engineering.virginia.edu/department/computer-science), advised by [Professor Judy Fox](https://judyfox.online/) and co-advised by [Professor Geoffrey Fox](https://engineering.virginia.edu/faculty/geoffrey-c-fox). Before UVA, I spent two years as an iOS software developer at [Samsung Research, Bangladesh](https://research.samsung.com/srbd) (2018–2020), after a B.Sc. in Computer Science and Engineering from [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/). I have also been a teaching assistant for seven graduate and undergraduate courses at UVA, spanning software engineering, big data systems, wireless sensing, and data analysis — see the [Teaching](/teaching/) page for details. In my spare time I enjoy Chess and Table Tennis.
 </div>
 
 <p class="hp-status"><strong>I am on the job market and available from Spring 2027.</strong> I would love to talk research or explore working together.</p>
@@ -21,12 +21,12 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
 
 <div class="hp-theme">
   <div class="hp-theme-label">Generative &amp; Foundation Models for Science</div>
-  <p><a href="https://dl.acm.org/doi/10.1145/3770855.3818994">Cosmo3DFlow</a> (KDD 2026) made 3D generative modeling up to 46× faster than diffusion-based methods by exploiting structure that high-dimensional scientific data tends to share; I am extending that efficiency to larger volumes and to other domains. <a href="https://arxiv.org/pdf/2601.15351">OmniSpectra</a> trains a single foundation model that learns from many different instruments at once, instead of a separate model for each one. Related work on <a href="https://journals.sagepub.com/doi/full/10.1177/10943420251399942">serverless inference</a> (IJHPCA 2025) puts large pretrained models within reach of teams with no dedicated HPC access.</p>
+  <p>Diffusion models are the standard for generative AI, but their iterative sampling is too costly for the large 3D and spectral datasets coming from next-generation telescopes and simulations. <a href="https://dl.acm.org/doi/10.1145/3770855.3818994">Cosmo3DFlow</a> (KDD 2026) cuts that cost with <strong>46× faster</strong> sampling than diffusion baselines, and I am extending the approach to larger data volumes and other scientific domains. <a href="https://arxiv.org/pdf/2601.15351">OmniSpectra</a> generalizes further, training a single foundation model across instruments instead of one per instrument. Related work on <a href="https://journals.sagepub.com/doi/full/10.1177/10943420251399942">serverless inference</a> (IJHPCA 2025) lets these large pretrained models run on demand, without dedicated HPC infrastructure.</p>
 </div>
 
 <div class="hp-theme">
   <div class="hp-theme-label">Explainable Time Series Deep Learning</div>
-  <p><a href="https://arxiv.org/pdf/2412.04532">WinTSR</a> (AAAI'25) showed that widely used explanation methods miss delayed cause and effect, and fixed it — improving on prior methods across a range of architectures and datasets. Applying this to COVID-19 forecasting revealed which age groups actually drove transmission, winning <a href="https://covidinfocommons.datascience.columbia.edu/content/2024-cic-student-paper-challenge">First Place in the 2024 CIC Student Paper Challenge</a>.</p>
+  <p>As time series models are used for increasingly high-stakes forecasting, the explanations behind their predictions need to be trustworthy — but common explanation methods miss delayed cause-and-effect relationships. <a href="https://arxiv.org/pdf/2412.04532">WinTSR</a> (AAAI'25) corrects this and improves on prior methods across several architectures and datasets. Applied to COVID-19 forecasting, it identified which age groups most drove transmission, winning <strong>First Place</strong> in the <a href="https://covidinfocommons.datascience.columbia.edu/content/2024-cic-student-paper-challenge">2024 CIC Student Paper Challenge</a>. I packaged this and 15+ other attribution methods into <a href="https://github.com/khairulislam/tslens">tslens</a>, a PyTorch library for interpreting predictions from 25+ time series architectures, from DLinear to LLM-backed foundation models.</p>
 </div>
 </section>
 
@@ -100,15 +100,16 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
 <h2 class="hp-heading">News</h2>
 
 <ul class="hp-news-list" id="hp-news-list">
+  <li class="hp-news-item"><span class="hp-news-date">Aug 2026</span><span class="hp-news-text">Released <a href="https://github.com/khairulislam/tslens">tslens</a> on PyPI — a PyTorch library unifying 15+ attribution methods across 25+ time series architectures.</span></li>
   <li class="hp-news-item"><span class="hp-news-date">Jul 2026</span><span class="hp-news-text">Passed my Ph.D. Proposal exam. Title: <em>"Generative and Foundation Models for Scientific Data"</em>.</span></li>
-  <li class="hp-news-item"><span class="hp-news-date">Jun 2026</span><span class="hp-news-text">Bronze Medal (top 10%, 279th of 3677 teams) in the <a href="https://www.kaggle.com/competitions/hull-tactical-market-prediction">Hull Tactical Market Prediction</a> Kaggle competition.</span></li>
+  <li class="hp-news-item"><span class="hp-news-date">Jun 2026</span><span class="hp-news-text"><strong>Bronze Medal</strong> (top 10%, 279th of 3677 teams) in the <a href="https://www.kaggle.com/competitions/hull-tactical-market-prediction">Hull Tactical Market Prediction</a> Kaggle competition.</span></li>
   <li class="hp-news-item"><span class="hp-news-date">May 2026</span><span class="hp-news-text"><a href="https://dl.acm.org/doi/10.1145/3770855.3818994">Cosmo3DFlow</a> accepted at <strong>KDD 2026</strong> — 46× faster sampling than diffusion models with 10× fewer integration steps. <a href="https://github.com/UVA-MLSys/Cosmo3DFlow">Code</a>.</span></li>
   <li class="hp-news-item"><span class="hp-news-date">Jan 2026</span><span class="hp-news-text">Preprint: <a href="https://arxiv.org/pdf/2601.15351">OmniSpectra: A Unified Foundation Model for Universal Spectra Representation Learning</a>.</span></li>
   <li class="hp-news-item"><span class="hp-news-date">Jan 2026</span><span class="hp-news-text">TA for <a href="https://www.cs3240.org/">Software Engineering (CS 3240)</a> — instructors Prof. Mark Sherriff and Prof. Sarah Elder.</span></li>
   <li class="hp-news-item"><span class="hp-news-date">Nov 2025</span><span class="hp-news-text"><a href="https://journals.sagepub.com/doi/full/10.1177/10943420251399942">Scalable Cosmic AI Inference using Cloud Serverless Computing</a> accepted at the <strong>International Journal of High Performance Computing Applications</strong>. <a href="https://github.com/UVA-MLSys/AI-for-Astronomy">Code</a>.</span></li>
 
   <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">Aug 2025</span><span class="hp-news-text">TA for <a href="https://www.cs3240.org/">Software Engineering (CS 3240)</a> — instructor Prof. Mark Sherriff.</span></li>
-  <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">Jul 2025</span><span class="hp-news-text">Silver Medal (top 5%, 155th of 3757 teams) in the <a href="https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting">Jane Street Real-Time Market Data Forecasting</a> Kaggle competition.</span></li>
+  <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">Jul 2025</span><span class="hp-news-text"><strong>Silver Medal</strong> (top 5%, 155th of 3757 teams) in the <a href="https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting">Jane Street Real-Time Market Data Forecasting</a> Kaggle competition.</span></li>
   <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">May 2025</span><span class="hp-news-text">TA for <a href="https://github.com/UVA-MLSys/DS5110_Summer_2025">Big Data Systems (DS 5110)</a> — instructor Prof. Judy Fox.</span></li>
   <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">Jan 2025</span><span class="hp-news-text">TA for <a href="https://mz8rr.github.io/FoDA/schedule.html">Foundations of Data Analysis</a> — instructor Prof. Miaomiao Zhang.</span></li>
   <li class="hp-news-item hp-news-hidden"><span class="hp-news-date">Dec 2024</span><span class="hp-news-text"><a href="https://arxiv.org/pdf/2412.04532">WinTSR</a> accepted at the <strong>AAAI 2025</strong> Workshop on AI for Time Series Analysis.</span></li>

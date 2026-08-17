@@ -11,4 +11,4 @@ location: "Charlottesville, VA, USA"
 Foundations of Data Analysis
 ======
 
-This course covers the foundations of data analysis, including statistical inference, data wrangling, and exploratory data analysis. The course website is here: [FoDA](https://mz8rr.github.io/FoDA/schedule.html).
+This course covers the foundations of data analysis, including statistical inference, data wrangling, and exploratory data analysis. Core topics covered include probability theory, linear algebra, dimensionality reduction, regression, classification, and deep neural networks, implemented in Python. Course instructor: Professor Miaomiao Zhang. The course website is here: [FoDA](https://mz8rr.github.io/FoDA/schedule.html).

@@ -11,4 +11,4 @@ location: "Charlottesville, VA, USA"
 Computation for Data Science
 ======
 
-This course is designed to equip you with the fundamental tools and techniques essential for solving complex computational problems. Throughout the course, we will explore a wide array of data structures—such as arrays, linked lists, stacks, queues, trees, graphs, and hash tables—and learn how to effectively implement and use them in Python. 
+This course is designed to equip you with the fundamental tools and techniques essential for solving complex computational problems. Throughout the course, we will explore a wide array of data structures—such as arrays, linked lists, stacks, queues, trees, graphs, and hash tables—and learn how to effectively implement and use them in Python. Course instructor: Professor Judy Fox.
