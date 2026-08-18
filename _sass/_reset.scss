@@ -8,7 +8,7 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 17.6px; /* 16px base, scaled up 10% site-wide */
+  font-size: 16.6px; /* 16px base, scaled up 10% site-wide */
 
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -84,7 +84,7 @@ a:active {
 sub,
 sup {
   position: relative;
-  font-size: 75%;
+  font-size: 80%;
   line-height: 0;
   vertical-align: baseline;
 }
