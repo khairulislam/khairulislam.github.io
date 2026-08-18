@@ -56,10 +56,28 @@
 }
 
 .page__content p.hp-title {
-  margin: 0 0 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.6rem;
+  row-gap: 0.15rem;
+  margin: 0.15rem 0 0.6rem;
   font-size: 0.95rem;
-  color: var(--hp-muted);
   text-indent: 0;
+}
+
+.page__content p.hp-title .hp-role {
+  font-weight: 600;
+  color: var(--hp-accent-dark);
+}
+
+.page__content p.hp-title .hp-location {
+  color: var(--hp-muted);
+  font-size: 0.85rem;
+}
+
+.page__content p.hp-title .hp-location i {
+  margin-right: 0.3rem;
 }
 
 .hp-profile-photo {
