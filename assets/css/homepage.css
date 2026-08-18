@@ -80,18 +80,28 @@
 .hp-social-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
   gap: 0.75rem;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
 }
 
 .hp-social-row a {
-  color: var(--hp-muted);
-  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--hp-accent);
+  background: var(--hp-rule-faint);
+  border-radius: 50%;
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.35rem;
   line-height: 1;
 }
 
 .hp-social-row a:hover {
-  color: var(--hp-accent);
+  color: #fff;
+  background: var(--hp-accent);
 }
 
 @media (min-width: 700px) {
