@@ -1,12 +1,17 @@
 ---
 permalink: /
 title: "Homepage"
+hide_page_title: true
 description: "I design generative and foundation models that cut the compute cost of large-scale scientific data by an order of magnitude — fast enough to run without a supercomputer, and general enough to reuse across domains."
-author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+<div class="hp-profile">
+<div class="hp-profile-main">
+<h1 class="hp-name">{{ site.author.name }}</h1>
+<p class="hp-title">{{ site.author.bio }} &middot; {{ site.author.location }}</p>
 
 <p class="hp-lead">I design generative and foundation models that cut the compute cost of large-scale scientific data by an order of magnitude — fast enough to run without a supercomputer, and general enough to reuse across domains.</p>
 
@@ -15,6 +20,21 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
 </div>
 
 <p class="hp-status"><strong>I am on the job market and available from Spring 2027.</strong> I would love to talk research or explore working together.</p>
+
+<div class="hp-social-row">
+<a href="mailto:{{ site.author.email }}" title="Email" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+<a href="{{ site.author.googlescholar }}" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+<a href="{{ site.author.orcid }}" title="ORCID" aria-label="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+<a href="https://github.com/{{ site.author.github }}" title="GitHub" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+<a href="https://kaggle.com/{{ site.author.kaggle }}" title="Kaggle" aria-label="Kaggle"><i class="fab fa-kaggle" aria-hidden="true"></i></a>
+<a href="https://linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+</div>
+</div>
+
+<div class="hp-profile-photo">
+<img src="/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+</div>
+</div>
 
 <section class="hp-section">
 <h2 class="hp-heading">Research</h2>

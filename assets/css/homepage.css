@@ -14,6 +14,88 @@
   --hp-rule-faint: #f1f5f9;
 }
 
+/* --- Profile header -------------------------------------------------------
+   Name, title, bio and photo, laid out as a two-column row on desktop and
+   stacked (bio first, then photo) on narrow screens.
+   ========================================================================== */
+
+.page__content .hp-profile {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hp-profile-main {
+  min-width: 0;
+}
+
+.page__content h1.hp-name {
+  margin: 0 0 0.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--hp-text);
+}
+
+.page__content p.hp-title {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  color: var(--hp-muted);
+  text-indent: 0;
+}
+
+.hp-profile-photo {
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.hp-profile-photo img {
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1px var(--hp-rule);
+}
+
+.hp-social-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  margin-top: 1.1rem;
+}
+
+.hp-social-row a {
+  color: var(--hp-muted);
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.hp-social-row a:hover {
+  color: var(--hp-accent);
+}
+
+@media (min-width: 700px) {
+  .page__content .hp-profile {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+
+  .hp-profile-photo {
+    align-self: flex-start;
+    margin-top: 0.3rem;
+  }
+
+  .hp-profile-photo img {
+    width: 168px;
+    height: 168px;
+  }
+}
+
 /* --- Lead paragraph ------------------------------------------------------ */
 
 .page__content p.hp-lead {
