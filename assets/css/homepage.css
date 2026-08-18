@@ -264,6 +264,14 @@
   margin-bottom: 0.1rem;
 }
 
+.hp-pub-award {
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--hp-accent-dark);
+  margin-bottom: 0.1rem;
+}
+
 .hp-pub-desc {
   font-size: 0.85rem;
   line-height: 1.45;
