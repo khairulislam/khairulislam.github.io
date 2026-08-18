@@ -146,7 +146,6 @@ analytics:
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -155,6 +154,7 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - CLAUDE.md
   - Capfile
   - Gemfile
   - Gruntfile.js
@@ -171,6 +171,30 @@ exclude:
   - package.json
   - tmp
   - vendor
+  # Unused AcademicPages template demo content. These were unlinked from the
+  # nav but still built, served, and listed in sitemap.xml, so search engines
+  # could surface "Talk 1 on Relevant Topic in Your Field" and "Blog Post
+  # number 1" on this domain. Delete the sources (and these lines) if they are
+  # never coming back; excluding keeps them in the repo but off the site.
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - _portfolio
+  - _posts
+  - _talks
+  - talkmap
+  # Authoring scripts, not site content: this was served as a browsable
+  # directory at /markdown_generator/, notebooks and source CSV included.
+  - markdown_generator
 keep_files:
   - .git
   - .svn

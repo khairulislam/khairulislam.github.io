@@ -7,7 +7,7 @@ author_profile: false
 
 <div class="hp-page">
 
-<section class="hp-section" style="padding-top: 0;">
+<section class="hp-section">
 <div class="hp-pub-group">
   <div class="hp-pub-label">Paper Awards</div>
   <ul class="hp-news-list">

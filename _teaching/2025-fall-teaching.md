@@ -8,7 +8,4 @@ date: 2025-08-27
 location: "Charlottesville, VA, USA"
 ---
 
-Software Engineering
-======
-
 Analyzes modern software engineering practice for multi-person projects; methods for requirements specification, design, implementation, verification, and maintenance of large software systems; advanced software development techniques and large project management approaches; project planning, scheduling, resource management, accounting, configuration control, and documentation. Students build a full-stack web application using Python, Django, and PostgreSQL, deployed to Heroku with GitHub Actions CI. Course instructors: Professor Mark Sherriff and Professor Derrick Stone. The course website is here: [uva-cs3240-f25](https://github.com/uva-cs3240-f25/team-project-information).

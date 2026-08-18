@@ -42,14 +42,37 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.15em;
   margin-top: 0;
   font-family: $sans-serif-narrow;
   font-weight: 600;
-  font-size: $type-size-4;
+  font-size: 0.95rem;
+  line-height: 1.4;
 
   a + a {
     opacity: 0.6;
+  }
+}
+
+/* Archive entries (publications, teaching, talks) render inside `.archive`,
+   NOT `.page__content` — these must not be scoped to the latter or they
+   silently stop applying. Venue, authors and link rows are metadata, so hold
+   them one step below the title. */
+.archive__item {
+  p, i {
+    font-size: 0.85rem;
+    line-height: 1.45;
+  }
+
+  p {
+    margin: 0 0 0.3rem;
+  }
+
+  /* The citation line is a bare <i> in archive-single.html. */
+  > i {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: $gray;
   }
 }
 
@@ -64,7 +87,17 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: 0.85rem;
+  line-height: 1.45;
+
+  /* An excerpt is one line of description. If a collection entry happens to
+     open with a heading, flatten it rather than letting it outrank the title. */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 600;
+    margin: 0;
+    border-bottom: none;
+  }
 
   & + p {
     text-indent: 0;
@@ -79,26 +112,46 @@
   }
 }
 
+/* Entries are rows, not cards: a hairline rule and tight padding, so a long
+   list reads as one scannable column instead of a stack of padded boxes. */
 .archive__item {
-  padding: 1.5em;
-  margin-bottom: 1.5em;
-  border-radius: $border-radius;
-  background: #fafafa;
-  transition: all 0.3s ease;
+  padding: 0.45rem 0;
+  margin-bottom: 0;
+  border-top: 1px solid $border-color;
 
-  &:hover {
-    background: #f0f7ff;
-    box-shadow: 0 4px 16px rgba($primary-color, 0.12);
-    transform: translateY(-2px);
-
-    .archive__item-teaser {
-      box-shadow: 0 8px 24px rgba($primary-color, 0.25);
-    }
-  }
-
-  .archive__item-title {
+  &:hover .archive__item-title {
     text-decoration: underline;
   }
+}
+
+.list__item:first-of-type .archive__item {
+  border-top: none;
+}
+
+
+/*
+   CV list entries (publications / teaching on the CV page)
+   ========================================================================== */
+
+/* Not scoped to `.page__content` — the CV uses the `archive` layout, which
+   has no such wrapper. */
+.cv__item {
+  margin-bottom: 0.4rem;
+}
+
+.cv__item-title {
+  margin: 0 0 0.1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.cv__item-meta,
+.archive .cv__item-meta {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: $gray;
 }
 
 
