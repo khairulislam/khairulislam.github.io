@@ -58,7 +58,9 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
 
   <div class="hp-pub-item">
     <div class="hp-pub-title">Cosmo3DFlow: Wavelet Flow Matching for Spatial-to-Spectral Compression in Reconstructing the Early Universe</div>
-    <div class="hp-pub-meta"><strong>Md Khairul Islam</strong>, Zeyu Xia, Ryan Goudjil, Jialu Wang, Arya Farahi, Judy Fox &middot; <span class="hp-venue">KDD 2026</span></div>
+    <div class="hp-pub-authors"><strong>Md Khairul Islam</strong>, Zeyu Xia, Ryan Goudjil, Jialu Wang, Arya Farahi, Judy Fox</div>
+    <div class="hp-pub-venue">KDD 2026</div>
+    <div class="hp-pub-desc">Combines 3D wavelet transforms with flow matching to reconstruct the early universe from cosmological simulations, cutting diffusion-model sampling cost by 46×.</div>
     <div class="hp-pub-links">
       <a href="https://dl.acm.org/doi/10.1145/3770855.3818994">Paper</a>
       <a href="https://github.com/UVA-MLSys/Cosmo3DFlow">Code</a>
@@ -67,7 +69,9 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
 
   <div class="hp-pub-item">
     <div class="hp-pub-title">OmniSpectra: A Unified Foundation Model for Universal Spectra Representation Learning</div>
-    <div class="hp-pub-meta"><strong>Md Khairul Islam</strong>, et al. &middot; <span class="hp-venue">Preprint, 2026</span></div>
+    <div class="hp-pub-authors"><strong>Md Khairul Islam</strong>, et al.</div>
+    <div class="hp-pub-venue">Preprint, 2026</div>
+    <div class="hp-pub-desc">A single foundation model for spectra across instruments, handling variable-length inputs at native resolution without resampling.</div>
     <div class="hp-pub-links">
       <a href="https://arxiv.org/pdf/2601.15351">Paper</a>
     </div>
@@ -75,7 +79,9 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
 
   <div class="hp-pub-item">
     <div class="hp-pub-title">Scalable Cosmic AI Inference using Cloud Serverless Computing</div>
-    <div class="hp-pub-meta">Mills Staylor, Amirreza Dolatpour Fathkouhi, <strong>Md Khairul Islam</strong>, et al. &middot; <span class="hp-venue">IJHPCA 2025</span></div>
+    <div class="hp-pub-authors">Mills Staylor, Amirreza Dolatpour Fathkouhi, <strong>Md Khairul Islam</strong>, et al.</div>
+    <div class="hp-pub-venue">IJHPCA 2025</div>
+    <div class="hp-pub-desc">A cloud framework combining pretrained models with serverless infrastructure to run deep-learning astronomical inference without dedicated HPC access.</div>
     <div class="hp-pub-links">
       <a href="https://journals.sagepub.com/doi/full/10.1177/10943420251399942">Paper</a>
       <a href="https://github.com/UVA-MLSys/AI-for-Astronomy">Code</a>
@@ -88,7 +94,9 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
 
   <div class="hp-pub-item">
     <div class="hp-pub-title">WinTSR: A Windowed Temporal Saliency Rescaling Method for Interpreting Time Series Deep Learning Models</div>
-    <div class="hp-pub-meta"><strong>Md Khairul Islam</strong>, Judy Fox &middot; <span class="hp-venue">AAAI 2025 Workshop (AI4TS)</span></div>
+    <div class="hp-pub-authors"><strong>Md Khairul Islam</strong>, Judy Fox</div>
+    <div class="hp-pub-venue">AAAI 2025 Workshop (AI4TS)</div>
+    <div class="hp-pub-desc">A windowed saliency method that captures delayed temporal dependencies, outperforming prior interpretation techniques across multiple architectures and datasets.</div>
     <div class="hp-pub-links">
       <a href="https://arxiv.org/pdf/2412.04532">Paper</a>
       <a href="https://github.com/khairulislam/Timeseries-Explained">Code</a>
@@ -97,7 +105,9 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
 
   <div class="hp-pub-item">
     <div class="hp-pub-title">Interpreting Time Series Transformer Models and Sensitivity Analysis of Population Age Groups to COVID-19 Infections</div>
-    <div class="hp-pub-meta"><strong>Md Khairul Islam</strong>, Judy Fox &middot; <span class="hp-venue">AAAI 2024 Workshop (AI4TS)</span></div>
+    <div class="hp-pub-authors"><strong>Md Khairul Islam</strong>, Judy Fox</div>
+    <div class="hp-pub-venue">AAAI 2024 Workshop (AI4TS)</div>
+    <div class="hp-pub-desc">Benchmarks eight interpretation methods across six transformer models using 3.5M COVID-19 case records to identify which age groups drove transmission.</div>
     <div class="hp-pub-links">
       <a href="https://arxiv.org/html/2401.15119v1">Paper</a>
     </div>
@@ -105,7 +115,9 @@ I am a sixth-year Computer Science Ph.D. candidate at the [University of Virgini
 
   <div class="hp-pub-item">
     <div class="hp-pub-title">Temporal Dependencies and Spatio-Temporal Patterns of Time Series Models</div>
-    <div class="hp-pub-meta"><strong>Md Khairul Islam</strong>, Judy Fox &middot; <span class="hp-venue">AAAI/SIGAI Doctoral Consortium 2024</span></div>
+    <div class="hp-pub-authors"><strong>Md Khairul Islam</strong>, Judy Fox</div>
+    <div class="hp-pub-venue">AAAI/SIGAI Doctoral Consortium 2024</div>
+    <div class="hp-pub-desc">Doctoral consortium work on explicitly modeling temporal importance to produce more precise explanations of feature interactions in time series models.</div>
     <div class="hp-pub-links">
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/30396">Paper</a>
       <a href="https://github.com/UVA-MLSys/SA-Timeseries">Code</a>

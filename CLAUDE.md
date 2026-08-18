@@ -38,3 +38,7 @@ missing system lib.
   e.g. inject `<style>*{animation:none !important;transition:none
   !important}</style>` before `</head>` in the built HTML, then screenshot
   normally.
+
+## Writing rules
+* No '—' unless necessary
+* Avoid marketting, overclaim, unverified statements.
