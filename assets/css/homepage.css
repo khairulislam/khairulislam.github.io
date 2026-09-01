@@ -329,6 +329,23 @@
   text-decoration: none;
 }
 
+/* --- Software ------------------------------------------------------------
+   Reuses the publication item styling; only the star-count badge is new.
+   ========================================================================== */
+
+.hp-sw-meta {
+  margin-left: 0.4rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--hp-muted);
+  white-space: nowrap;
+}
+
+.hp-sw-meta i {
+  margin-right: 0.15rem;
+  font-size: 0.75rem;
+}
+
 .hp-view-all {
   display: inline-block;
   margin-top: 0.75rem;

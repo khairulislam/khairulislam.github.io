@@ -18,7 +18,7 @@ I design Generative AI and Foundation models for scientific data, to run efficie
 
 My research spans **Generative AI** ([Cosmo3DFlow](https://dl.acm.org/doi/10.1145/3770855.3818994), KDD 2026, wavelet flow matching for efficient 3D reconstruction, creates $128^3$ in seconds vs minute in Diffusion, scales to $1024^3$), **Unified Foundation Model** ([OmniSpectra](https://arxiv.org/pdf/2601.15351), unifies representation across millions of spectra with different lengths and resolutions), **Explainable AI** ([WinTSR](https://arxiv.org/pdf/2412.04532), AAAI 2025 AI4TS workshop, interpreting temporal patterns over context windows), **Scalable AI** ([AI Inference](https://journals.sagepub.com/doi/full/10.1177/10943420251399942), IJHPCA 2025, serverless computing for ViT inference on AWS Cloud container). My xAI work on time series have been awarded **First Place** in the [2024 CIC Student Paper Challenge](https://covidinfocommons.datascience.columbia.edu/content/2024-cic-student-paper-challenge) for [Interpreting time series sensitivity](https://arxiv.org/html/2401.15119v1), **Third Place** at the [NSF Student Research Competition, ICDH 2023](https://conferences.computer.org/icdh/2023/student_awards.html) for interpreting [Spatio-temporal attention patterns](https://ieeexplore.ieee.org/abstract/document/10224685).
 
-I often participate in Kaggle ML competitions and have **2 Silver** and **2 Bronze** medals there (currently ranked **3,225 worldwide, top 1.5%**). My opensource works include: [tslens](https://github.com/khairulislam/tslens), PyTorch library for interpreting SOTA time series models (traditional & foundation); [Financial Time Series using LLMs](https://github.com/UVA-MLSys/Financial-Time-Series); [Astronomy Vision](https://github.com/khairulislam/VLASS-Vision); [Anomaly Detection](https://github.com/khairulislam/Anomaly-Detection-on-UNSW-NB15). Before UVA, I spent two years as an iOS software developer at [Samsung Research, Bangladesh](https://research.samsung.com/srbd) (2018–2020), after a B.Sc. from [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/). I assisted in teaching for several courses at UVA (see [Teaching](/teaching/)). In my spare time I enjoy Chess and Table Tennis. **I am on the job market and available from Spring 2027.** If you would like to talk research or explore working together, [reach out](mailto:{{ site.author.email }}).
+I often participate in Kaggle ML competitions and have **2 Silver** and **2 Bronze** medals there (currently ranked **3,225 worldwide, top 1.5%**). I release my research code as open-source PyTorch libraries, including [tslens](https://github.com/khairulislam/tslens) for time series interpretability and the AstroSpec / AstroGen / AstroLens libraries for astronomy (see [Software](#software)). Before UVA, I spent two years as an iOS software developer at [Samsung Research, Bangladesh](https://research.samsung.com/srbd) (2018–2020), after a B.Sc. from [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/). I assisted in teaching for several courses at UVA (see [Teaching](/teaching/)). In my spare time I enjoy Chess and Table Tennis. **I am on the job market and available from Spring 2027.** If you would like to talk research or explore working together, [reach out](mailto:{{ site.author.email }}).
 </div>
 
 <div class="hp-social-row">
@@ -145,6 +145,77 @@ I often participate in Kaggle ML competitions and have **2 Silver** and **2 Bron
 </div>
 
 <a class="hp-view-all" href="/publications/">See all publications →</a>
+</section>
+
+<section class="hp-section" id="software">
+<h2 class="hp-heading">Software</h2>
+
+<div class="hp-pub-group">
+  <div class="hp-pub-label">Libraries</div>
+
+  <div class="hp-pub-item">
+    <div class="hp-pub-title">tslens <span class="hp-sw-meta"><i class="fas fa-star" aria-hidden="true"></i> 13</span></div>
+    <div class="hp-pub-desc">Time series interpretability for PyTorch, unifying 15+ attribution methods across 25+ architectures, from supervised to foundation models. Available on PyPI.</div>
+    <div class="hp-pub-links">
+      <a href="https://github.com/khairulislam/tslens">GitHub</a>
+      <a href="https://pypi.org/project/tslens/">PyPI</a>
+    </div>
+  </div>
+
+  <div class="hp-pub-item">
+    <div class="hp-pub-title">AstroSpec</div>
+    <div class="hp-pub-desc">Unified spectral library for astronomy, putting seven spectroscopic models behind one PyTorch interface for source classification, redshift estimation, stellar property inference and self-supervised representation learning on native instrument grids.</div>
+    <div class="hp-pub-links">
+      <a href="https://github.com/khairulislam/AstroSpec">GitHub</a>
+    </div>
+  </div>
+
+  <div class="hp-pub-item">
+    <div class="hp-pub-title">AstroGen</div>
+    <div class="hp-pub-desc">Generative models for astronomical data in 1D, 2D and 3D, covering diffusion models and VAEs for super-resolution, denoising and conditional generation over images, spectra and simulations.</div>
+    <div class="hp-pub-links">
+      <a href="https://github.com/khairulislam/AstroGen">GitHub</a>
+    </div>
+  </div>
+
+  <div class="hp-pub-item">
+    <div class="hp-pub-title">AstroLens</div>
+    <div class="hp-pub-desc">Unified library of vision models for astronomy, covering galaxy morphology classification, strong gravitational lensing and multimodal representation learning, with pretrained foundations such as AstroCLIP and AION-1.</div>
+    <div class="hp-pub-links">
+      <a href="https://github.com/khairulislam/AstroLens">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="hp-pub-group">
+  <div class="hp-pub-label">Research Code</div>
+
+  <div class="hp-pub-item">
+    <div class="hp-pub-title">Financial Time Series <span class="hp-sw-meta"><i class="fas fa-star" aria-hidden="true"></i> 19</span></div>
+    <div class="hp-pub-desc">Benchmarks transformer and LLM-based forecasters (PatchTST, iTransformer, TimesNet, GPT4TS, TimeLLM) on financial data. Code for our IEEE BigData 2024 LLMs-for-Finance workshop paper.</div>
+    <div class="hp-pub-links">
+      <a href="https://github.com/UVA-MLSys/Financial-Time-Series">GitHub</a>
+    </div>
+  </div>
+
+  <div class="hp-pub-item">
+    <div class="hp-pub-title">Anomaly Detection on UNSW-NB15 <span class="hp-sw-meta"><i class="fas fa-star" aria-hidden="true"></i> 9</span></div>
+    <div class="hp-pub-desc">Ensemble machine learning for network traffic anomaly detection on the UNSW-NB15 benchmark.</div>
+    <div class="hp-pub-links">
+      <a href="https://github.com/khairulislam/Anomaly-Detection-on-UNSW-NB15">GitHub</a>
+    </div>
+  </div>
+
+  <div class="hp-pub-item">
+    <div class="hp-pub-title">VLASS Vision <span class="hp-sw-meta"><i class="fas fa-star" aria-hidden="true"></i> 5</span></div>
+    <div class="hp-pub-desc">Vision models for classifying radio astronomy images from the VLA Sky Survey, comparing CNN and transformer backbones (ResNet, MobileNet, ViT, SwinViT).</div>
+    <div class="hp-pub-links">
+      <a href="https://github.com/khairulislam/VLASS-Vision">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<a class="hp-view-all" href="https://github.com/khairulislam">See all on GitHub →</a>
 </section>
 
 <section class="hp-section">

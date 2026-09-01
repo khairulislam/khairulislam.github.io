@@ -21,8 +21,8 @@ author_profile: false
   <ul class="hp-news-list">
     <li class="hp-news-item"><span class="hp-news-date">Jun 2026</span><span class="hp-news-text"><strong>Bronze Medal</strong> (top 10%, 279th of 3677 teams) in <a href="https://www.kaggle.com/competitions/hull-tactical-market-prediction">Hull Tactical Market Prediction</a>, Kaggle.</span></li>
     <li class="hp-news-item"><span class="hp-news-date">Jul 2025</span><span class="hp-news-text"><strong>Silver Medal</strong> (top 5%, 155th of 3757 teams) in <a href="https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting">Jane Street Real-Time Market Data Forecasting</a>, Kaggle.</span></li>
-    <li class="hp-news-item"><span class="hp-news-date">Dec 2019</span><span class="hp-news-text"><strong>Bronze Medal</strong> (222nd of 3614 teams) in <a href="https://www.kaggle.com/certification/competitions/khairulislam/ashrae-energy-prediction">ASHRAE - Great Energy Predictor III</a>, Kaggle.</span></li>
-    <li class="hp-news-item"><span class="hp-news-date">Oct 2019</span><span class="hp-news-text"><strong>Silver Medal</strong> (152nd of 6351 teams) in <a href="https://www.kaggle.com/certification/competitions/khairulislam/ieee-fraud-detection">IEEE-CIS Fraud Detection</a>, Kaggle.</span></li>
+    <li class="hp-news-item"><span class="hp-news-date">Dec 2019</span><span class="hp-news-text"><strong>Bronze Medal</strong> (top 6%, 222nd of 3614 teams) in <a href="https://www.kaggle.com/certification/competitions/khairulislam/ashrae-energy-prediction">ASHRAE - Great Energy Predictor III</a>, Kaggle.</span></li>
+    <li class="hp-news-item"><span class="hp-news-date">Oct 2019</span><span class="hp-news-text"><strong>Silver Medal</strong> (top 3%, 152nd of 6351 teams) in <a href="https://www.kaggle.com/certification/competitions/khairulislam/ieee-fraud-detection">IEEE-CIS Fraud Detection</a>, Kaggle.</span></li>
   </ul>
   <a class="hp-view-all" href="https://www.kaggle.com/khairulislam/competitions">See all Kaggle competitions →</a>
 </div>

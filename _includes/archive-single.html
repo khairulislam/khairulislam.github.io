@@ -66,12 +66,17 @@
       <i> {{ post.citation }} </i>
     {% endif %}
 
-    {% if post.paperurl and post.slidesurl %}
-      <p><a href=" {{ post.paperurl }} ">[Paper]</a> | <a href="{{ post.slidesurl }}">[Code]</a></p>
-    {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Paper</a></p>
-    {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Code</a></p>
+    {% comment %}
+      `slidesurl` holds the code repository for the publications collection —
+      a legacy key name from the upstream template, not a slide deck.
+      `codeurl` is preferred for new entries; both are accepted.
+    {% endcomment %}
+    {% assign code_url = post.codeurl | default: post.slidesurl %}
+    {% if post.paperurl or code_url %}
+      <p class="archive__item-links">
+        {% if post.paperurl %}<a href="{{ post.paperurl | strip }}">Paper</a>{% endif %}
+        {% if code_url %}<a href="{{ code_url | strip }}">Code</a>{% endif %}
+      </p>
     {% endif %}
 
   </article>

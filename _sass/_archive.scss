@@ -320,3 +320,27 @@
   color: #1d4ed8;
   margin: 0.1em 0;
 }
+
+/* Paper / Code chips under a publication. Mirrors .hp-pub-links in
+   assets/css/homepage.css so the same links look the same on both pages. */
+.archive__item-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.3em 0 0;
+
+  a {
+    font-size: $type-size-8;
+    font-weight: 500;
+    color: #2563eb;
+    border: 1px solid rgba(37, 99, 235, 0.25);
+    padding: 0.1em 0.5em;
+    border-radius: 0.375rem;
+
+    &:hover {
+      color: #1d4ed8;
+      border-color: rgba(37, 99, 235, 0.45);
+      text-decoration: none;
+    }
+  }
+}
