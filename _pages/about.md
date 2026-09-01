@@ -18,7 +18,7 @@ I design Generative AI and Foundation models for scientific data, to run efficie
 
 My research spans **Generative AI** ([Cosmo3DFlow](https://dl.acm.org/doi/10.1145/3770855.3818994), KDD 2026, wavelet flow matching for efficient 3D reconstruction, creates $128^3$ in seconds vs minute in Diffusion, scales to $1024^3$), **Unified Foundation Model** ([OmniSpectra](https://arxiv.org/pdf/2601.15351), unifies representation across millions of spectra with different lengths and resolutions), **Explainable AI** ([WinTSR](https://arxiv.org/pdf/2412.04532), AAAI 2025 AI4TS workshop, interpreting temporal patterns over context windows), **Scalable AI** ([AI Inference](https://journals.sagepub.com/doi/full/10.1177/10943420251399942), IJHPCA 2025, serverless computing for ViT inference on AWS Cloud container). My xAI work on time series have been awarded **First Place** in the [2024 CIC Student Paper Challenge](https://covidinfocommons.datascience.columbia.edu/content/2024-cic-student-paper-challenge) for [Interpreting time series sensitivity](https://arxiv.org/html/2401.15119v1), **Third Place** at the [NSF Student Research Competition, ICDH 2023](https://conferences.computer.org/icdh/2023/student_awards.html) for interpreting [Spatio-temporal attention patterns](https://ieeexplore.ieee.org/abstract/document/10224685).
 
-I often participate in Kaggle ML competitions and have **2 Silver** and **2 Bronze** medals there (currently ranked **3,225 worldwide, top 1.5%**). I release my research code as open-source PyTorch libraries, including [tslens](https://github.com/khairulislam/tslens) for time series interpretability and the AstroSpec / AstroGen / AstroLens libraries for astronomy (see [Software](#software)). Before UVA, I spent two years as an iOS software developer at [Samsung Research, Bangladesh](https://research.samsung.com/srbd) (2018–2020), after a B.Sc. from [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/). I assisted in teaching for several courses at UVA (see [Teaching](/teaching/)). In my spare time I enjoy Chess and Table Tennis. **I am on the job market and available from Spring 2027.** If you would like to talk research or explore working together, [reach out](mailto:{{ site.author.email }}).
+I often participate in Kaggle ML competitions and have **2 Silver** and **2 Bronze** medals there (currently ranked **3,225 worldwide, top 1.5%**). I release my research code as open-source PyTorch libraries, including [tslens](https://github.com/khairulislam/tslens) for time series interpretability and the AstroSpec / AstroGen / AstroLens libraries for astronomy (see [Software](/software/)). Before UVA, I spent two years as an iOS software developer at [Samsung Research, Bangladesh](https://research.samsung.com/srbd) (2018–2020), after a B.Sc. from [Bangladesh University of Engineering and Technology](https://cse.buet.ac.bd/). I assisted in teaching for several courses at UVA (see [Teaching](/teaching/)). In my spare time I enjoy Chess and Table Tennis. **I am on the job market and available from Spring 2027.** If you would like to talk research or explore working together, [reach out](mailto:{{ site.author.email }}).
 </div>
 
 <div class="hp-social-row">
@@ -40,7 +40,7 @@ I often participate in Kaggle ML competitions and have **2 Silver** and **2 Bron
 <h2 class="hp-heading">News</h2>
 
 <ul class="hp-news-list" id="hp-news-list">
-  <li class="hp-news-item"><span class="hp-news-date">Aug 2026</span><span class="hp-news-text">Released <a href="https://github.com/khairulislam/tslens">tslens</a> on PyPI: a PyTorch library unifying 15+ attribution methods across 25+ time series architectures.</span></li>
+  <li class="hp-news-item"><span class="hp-news-date">Aug 2026</span><span class="hp-news-text">Released <a href="https://github.com/khairulislam/tslens">tslens</a> on PyPI: a PyTorch library unifying 14 attribution methods across 30+ time series architectures.</span></li>
   <li class="hp-news-item"><span class="hp-news-date">Jul 2026</span><span class="hp-news-text">Passed my Ph.D. Proposal exam. Title: <em>"Generative and Foundation Models for Scientific Data"</em>.</span></li>
   <li class="hp-news-item"><span class="hp-news-date">Jun 2026</span><span class="hp-news-text"><strong>Bronze Medal</strong> (top 10%, 279th of 3677 teams) in the <a href="https://www.kaggle.com/competitions/hull-tactical-market-prediction">Hull Tactical Market Prediction</a> Kaggle competition.</span></li>
   <li class="hp-news-item"><span class="hp-news-date">May 2026</span><span class="hp-news-text"><a href="https://dl.acm.org/doi/10.1145/3770855.3818994">Cosmo3DFlow</a> accepted at <strong>KDD 2026</strong>, sampling with an order of magnitude fewer integration steps than diffusion models. <a href="https://github.com/UVA-MLSys/Cosmo3DFlow">Code</a>.</span></li>
@@ -155,7 +155,7 @@ I often participate in Kaggle ML competitions and have **2 Silver** and **2 Bron
 
   <div class="hp-pub-item">
     <div class="hp-pub-title">tslens <span class="hp-sw-meta"><i class="fas fa-star" aria-hidden="true"></i> 13</span></div>
-    <div class="hp-pub-desc">Time series interpretability for PyTorch, unifying 15+ attribution methods across 25+ architectures, from supervised to foundation models. Available on PyPI.</div>
+    <div class="hp-pub-desc">Time series interpretability for PyTorch: 14 attribution methods behind one Captum-compatible interface, tested against 30+ architectures from linear models to LLM-backed foundation models. Available on PyPI.</div>
     <div class="hp-pub-links">
       <a href="https://github.com/khairulislam/tslens">GitHub</a>
       <a href="https://pypi.org/project/tslens/">PyPI</a>
@@ -215,7 +215,7 @@ I often participate in Kaggle ML competitions and have **2 Silver** and **2 Bron
   </div>
 </div>
 
-<a class="hp-view-all" href="https://github.com/khairulislam">See all on GitHub →</a>
+<a class="hp-view-all" href="/software/">See all software →</a>
 </section>
 
 <section class="hp-section">

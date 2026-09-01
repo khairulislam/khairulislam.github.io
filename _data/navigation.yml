@@ -6,6 +6,9 @@ main:
   - title: "Teaching"
     url: /teaching/
 
+  - title: "Software"
+    url: /software/
+
   - title: "Awards"
     url: /awards/
 
